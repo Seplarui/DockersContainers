@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    image: mysql:latest
+    container_name: gestiontys
+    environment:
+      MYSQL_ROOT_PASSWORD: seplarui
+      MYSQL_DATABASE: gestiontys
+      MYSQL_USER: seplarui
+      MYSQL_PASSWORD: seplarui
+    ports:
+      - "33060:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+volumes:
+  dbdata:
