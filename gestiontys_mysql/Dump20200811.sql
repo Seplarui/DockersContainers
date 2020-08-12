@@ -40,7 +40,7 @@ CREATE TABLE `clientes` (
   `fechamod` varchar(100) DEFAULT NULL,
   `horastotales` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`clienteid`)
-) ENGINE=InnoDB AUTO_INCREMENT=2001 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2001 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
